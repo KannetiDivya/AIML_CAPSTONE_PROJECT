@@ -40,13 +40,13 @@ This project uses the **ULB Machine Learning Group Credit Card Fraud Detection d
 
 ### Dataset Details
 
-| Information | Value |
-|---|---:|
-| Total transactions | **284,807** |
+|     Information       | Value |
+|---                    |   ---:|
+| Total transactions    | **284,807** |
 | Fraudulent transactions | **492** |
-| Input features | **30** |
-| Features | `Time`, `V1`–`V28`, `Amount` |
-| Target | `Class` |
+| Input features        | **30** |
+| Features              | `Time`, `V1`–`V28`, `Amount` |
+| Target                | `Class` |
 
 The dataset is highly imbalanced, with fraudulent transactions representing a very small proportion of the total transactions.
 
@@ -167,7 +167,7 @@ Fraud labels were used only for evaluation.
 
 Final Model Comparison
   Model	        Precision	Recall	 F1-Score	Fraud Detected	Flagged Transactions
-Autoencoder	     0.1269	    0.8367	  0.2204	    82/98	            646
+Autoencoder	 0.1269	    0.8367	  0.2204	    82/98	            646
 One-Class SVM    0.1246	    0.8265	  0.2166	    81/98	            650
 Isolation Forest 0.0984	    0.6735	  0.1717	    66/98	            671
 
