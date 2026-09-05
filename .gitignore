@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment and secret files
+.env
+.env.*
+kaggle.json
+
+# Dataset
+data/creditcard.csv
+
+# Temporary files
+*.tmp
+~$*.docx
+
+# OS files
+.DS_Store
+Thumbs.db

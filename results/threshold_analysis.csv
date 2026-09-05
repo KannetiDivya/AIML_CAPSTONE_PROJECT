@@ -1,0 +1,5 @@
+Percentile,Threshold,Normal_Transactions_Flagged,False_Alarm_Rate_Percent
+95.0,0.06258296,2275,5.001
+97.5,0.11462092,1138,2.5016
+99.0,0.21305744,455,1.0002
+99.5,0.30817743,228,0.5012
